@@ -19,6 +19,7 @@ final class TaskController extends AbstractController
     public function __construct(TaskQuery $todoQuery)
     {
         $this->taskQuery = $todoQuery;
+        $a = 12;
     }
 
     /**
